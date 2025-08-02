@@ -4,7 +4,7 @@ A responsive, futuristic landing page for an Italian restaurant, designed with e
 
 ## 🌐 Live Preview
 
-👉 [View the website on GitHub Pages](ttps://dichev-design.github.io/Restaurant-Landing-Page/)
+👉 [View the website on GitHub Pages](https://dichev-design.github.io/Restaurant-Landing-Page/)
 
 > _(Update the link above once the repo is pushed and deployed)_
 
