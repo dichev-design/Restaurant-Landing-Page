@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Futura Italiana - Italian Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Futura Italiana</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <div>
+      <h1>Experience the Future of Italian Cuisine</h1>
+      <button onclick="openMenuPopup()">Today's Menu</button>
+    </div>
+  </section>
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At Futura Italiana, we blend tradition with innovation. Our dishes honor classic Italian flavors while embracing modern culinary artistry.</p>
+  </section>
+  <section id="menu" class="section">
+    <h2>Signature Dishes</h2>
+    <p>From wood-fired pizzas to homemade pasta, explore our chef's favorite creations.</p>
+  </section>
+  <section id="location" class="section">
+    <h2>Find Us</h2>
+    <p>123 Neo-Roma Street, Berlin, Germany</p>
+  </section>
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: info@futuraitaliana.com | Phone: +49 123 456789</p>
+  </section>
+  <div id="menuPopup" class="popup">
+    <h2>Today's Menu</h2>
+    <ul>
+      <li>🌿 Caprese Salad</li>
+      <li>🍝 Truffle Tagliatelle</li>
+      <li>🔥 Neapolitan Pizza</li>
+      <li>🍮 Tiramisu</li>
+    </ul>
+    <button class="close-popup" onclick="closeMenuPopup()">Close</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
